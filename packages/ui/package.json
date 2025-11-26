@@ -12,6 +12,7 @@
   "exports": {
     "./styles.css": "./dist/index.css",
     "./theme.css": "./src/styles/theme.css",
+    "./variables.css": "./src/styles/variables.css",
     "./*": "./dist/src/*.js"
   },
   "dependencies": {
