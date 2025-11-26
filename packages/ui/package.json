@@ -6,9 +6,13 @@
   "scripts": {
     "build": "tsc && tailwindcss -i ./src/styles/index.css -o ./dist/index.css"
   },
+  "imports": {
+    "#*": "./dist/src/*"
+  },
   "exports": {
     "./styles.css": "./dist/index.css",
-    "./*": "./dist/*.js"
+    "./theme.css": "./src/styles/theme.css",
+    "./*": "./dist/src/*.js"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",

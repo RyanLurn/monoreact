@@ -9,15 +9,19 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@repo/ui": "workspace:*",
     "next": "^16.0.4",
     "react": "catalog:",
     "react-dom": "catalog:"
   },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
+    "@tailwindcss/postcss": "catalog:",
     "@types/node": "catalog:",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
+    "postcss": "catalog:",
+    "tailwindcss": "catalog:",
     "typescript": "catalog:"
   }
 }
