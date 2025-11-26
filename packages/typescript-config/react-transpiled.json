@@ -3,7 +3,6 @@
   "extends": "./react.json",
   "compilerOptions": {
     "module": "NodeNext",
-    "outDir": "dist",
     "sourceMap": true,
     "declaration": true,
     "composite": true,

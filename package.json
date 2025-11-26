@@ -13,7 +13,8 @@
     "vite:preview": "pnpm -F @repo/vite-spa run preview",
     "hono:dev": "pnpm -F @repo/hono-api run dev",
     "hono:build": "pnpm -F @repo/hono-api run build",
-    "hono:start": "pnpm -F @repo/hono-api run start"
+    "hono:start": "pnpm -F @repo/hono-api run start",
+    "hono:type-check": "pnpm -F @repo/hono-api run type-check"
   },
   "devDependencies": {
     "@prettier/plugin-oxc": "0.0.5",

@@ -60,6 +60,9 @@ importers:
         specifier: ^4.10.6
         version: 4.10.6
     devDependencies:
+      '@repo/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@types/node':
         specifier: 'catalog:'
         version: 24.10.1

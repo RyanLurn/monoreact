@@ -3,7 +3,6 @@
   "extends": "./base.json",
   "compilerOptions": {
     "module": "NodeNext",
-    "outDir": "dist",
     "sourceMap": true
   }
 }

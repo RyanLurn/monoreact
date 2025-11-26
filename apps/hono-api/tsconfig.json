@@ -1,17 +1,11 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@repo/typescript-config/node-transpiled.json",
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "NodeNext",
-    "strict": true,
-    "verbatimModuleSyntax": true,
-    "skipLibCheck": true,
-    "types": ["node"],
-    "outDir": "./dist",
-
+    "outDir": "dist",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }
-  },
-  "exclude": ["node_modules"]
+  }
 }
