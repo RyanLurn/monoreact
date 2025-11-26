@@ -8,6 +8,7 @@
     "next:dev": "pnpm -F @repo/next-app run dev",
     "next:build": "pnpm -F @repo/next-app run build",
     "next:start": "pnpm -F @repo/next-app run start",
+    "next:type-check": "pnpm -F @repo/next-app run type-check",
     "vite:dev": "pnpm -F @repo/vite-spa run dev",
     "vite:build": "pnpm -F @repo/vite-spa run build",
     "vite:preview": "pnpm -F @repo/vite-spa run preview",
