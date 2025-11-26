@@ -4,7 +4,10 @@
   "license": "MIT",
   "scripts": {
     "format": "prettier . --write",
-    "format:check": "prettier . --check"
+    "format:check": "prettier . --check",
+    "next:dev": "pnpm -F @repo/next-app run dev",
+    "next:build": "pnpm -F @repo/next-app run build",
+    "next:start": "pnpm -F @repo/next-app run start"
   },
   "devDependencies": {
     "@prettier/plugin-oxc": "0.0.5",
