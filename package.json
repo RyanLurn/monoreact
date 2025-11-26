@@ -10,7 +10,10 @@
     "next:start": "pnpm -F @repo/next-app run start",
     "vite:dev": "pnpm -F @repo/vite-spa run dev",
     "vite:build": "pnpm -F @repo/vite-spa run build",
-    "vite:preview": "pnpm -F @repo/vite-spa run preview"
+    "vite:preview": "pnpm -F @repo/vite-spa run preview",
+    "hono:dev": "pnpm -F @repo/hono-api run dev",
+    "hono:build": "pnpm -F @repo/hono-api run build",
+    "hono:start": "pnpm -F @repo/hono-api run start"
   },
   "devDependencies": {
     "@prettier/plugin-oxc": "0.0.5",
