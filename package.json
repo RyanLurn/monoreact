@@ -1,0 +1,6 @@
+{
+  "name": "monoreact",
+  "version": "1.0.0",
+  "license": "MIT",
+  "packageManager": "pnpm@10.23.0"
+}
