@@ -1,8 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-@import "@repo/ui/styles/theme.css";
-@import "@repo/ui/styles/variables.css";
-@import "@repo/ui/styles/base.css";
-@import "@repo/ui/styles/scrollbar.css";
+@import "@repo/styles/theme.css";
+@import "@repo/styles/variables.css";
+@import "@repo/styles/base.css";
+@import "@repo/styles/scrollbar.css";
 
 @source "../../node_modules/@repo/ui/dist/src";
