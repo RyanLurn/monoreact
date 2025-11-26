@@ -135,6 +135,8 @@ importers:
         specifier: 'catalog:'
         version: 4.1.17
 
+  packages/typescript-config: {}
+
   packages/ui:
     dependencies:
       react:
