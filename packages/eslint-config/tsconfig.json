@@ -1,7 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "./base.json",
+  "extends": "@repo/typescript-config/base.json",
   "compilerOptions": {
+    "checkJs": true,
     "module": "preserve",
     "noEmit": true
   }

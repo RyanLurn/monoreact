@@ -17,7 +17,10 @@
     "hono:build": "pnpm -F @repo/hono-api run build",
     "hono:start": "pnpm -F @repo/hono-api run start",
     "hono:type-check": "pnpm -F @repo/hono-api run type-check",
-    "ui:build": "pnpm -F @repo/ui run build"
+    "ui:build": "pnpm -F @repo/ui run build",
+    "eslint-config:type-check": "pnpm -F @repo/eslint-config run type-check",
+    "eslint-config:lint": "pnpm -F @repo/eslint-config run lint",
+    "eslint-config:lint-fix": "pnpm -F @repo/eslint-config run lint-fix"
   },
   "devDependencies": {
     "@prettier/plugin-oxc": "0.0.5",
