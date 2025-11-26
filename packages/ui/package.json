@@ -4,15 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc && tailwindcss -i ./src/styles/index.css -o ./dist/index.css"
+    "build": "tsc"
   },
   "imports": {
     "#*": "./dist/src/*"
   },
   "exports": {
-    "./styles.css": "./dist/index.css",
-    "./theme.css": "./src/styles/theme.css",
-    "./variables.css": "./src/styles/variables.css",
+    "./styles/*": "./src/styles/*",
     "./*": "./dist/src/*.js"
   },
   "dependencies": {
@@ -26,7 +24,6 @@
   },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
-    "@tailwindcss/cli": "^4.1.17",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
     "tailwindcss": "catalog:",
