@@ -12,6 +12,7 @@
     "vite:dev": "pnpm -F @repo/vite-spa run dev",
     "vite:build": "pnpm -F @repo/vite-spa run build",
     "vite:preview": "pnpm -F @repo/vite-spa run preview",
+    "vite:type-check": "pnpm -F @repo/vite-spa run type-check",
     "hono:dev": "pnpm -F @repo/hono-api run dev",
     "hono:build": "pnpm -F @repo/hono-api run build",
     "hono:start": "pnpm -F @repo/hono-api run start",
