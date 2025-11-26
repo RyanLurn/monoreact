@@ -114,6 +114,8 @@ importers:
         specifier: ^7.2.4
         version: 7.2.4(@types/node@24.10.1)(tsx@4.20.6)
 
+  packages/tailwind-config: {}
+
 packages:
 
   '@babel/code-frame@7.27.1':
