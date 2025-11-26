@@ -4,7 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build-styles": "tailwindcss -i ./src/styles/index.css -o ./dist/index.css"
+    "build": "tsc && tailwindcss -i ./src/styles/index.css -o ./dist/index.css"
+  },
+  "exports": {
+    "./styles.css": "./dist/index.css",
+    "./*": "./dist/*.js"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",

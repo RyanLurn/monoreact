@@ -17,7 +17,7 @@
     "hono:build": "pnpm -F @repo/hono-api run build",
     "hono:start": "pnpm -F @repo/hono-api run start",
     "hono:type-check": "pnpm -F @repo/hono-api run type-check",
-    "ui:build-styles": "pnpm -F @repo/ui run build-styles"
+    "ui:build": "pnpm -F @repo/ui run build"
   },
   "devDependencies": {
     "@prettier/plugin-oxc": "0.0.5",
