@@ -1,7 +1,9 @@
+import { Button } from "@repo/ui/components/button";
+
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className="flex h-dvh items-center justify-center">
+      <Button>Click me</Button>
     </div>
   );
 }
