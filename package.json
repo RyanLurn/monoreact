@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
+    "build": "pnpm exec turbo run build",
+    "dev": "pnpm exec turbo run dev",
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "type-check": "pnpm exec turbo run type-check",
