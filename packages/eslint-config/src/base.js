@@ -25,7 +25,9 @@ const baseConfig = defineConfig([
   {
     languageOptions: {
       parserOptions: {
-        projectService: true,
+        projectService: {
+          allowDefaultProject: ["*.js", "*.mjs"],
+        },
       },
     },
   },

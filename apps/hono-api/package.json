@@ -7,15 +7,19 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "lint": "eslint --cache",
+    "lint-fix": "eslint --cache --fix"
   },
   "dependencies": {
     "@hono/node-server": "^1.19.6",
     "hono": "^4.10.6"
   },
   "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/node": "catalog:",
+    "eslint": "catalog:",
     "tsx": "^4.20.6",
     "typescript": "catalog:"
   }
