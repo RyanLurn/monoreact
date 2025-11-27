@@ -13,6 +13,7 @@
     "next:dev": "pnpm -F @repo/next-app run dev",
     "next:build": "pnpm -F @repo/next-app run build",
     "next:start": "pnpm -F @repo/next-app run start",
+    "next:type-gen": "pnpm -F @repo/next-app run type-gen",
     "next:type-check": "pnpm -F @repo/next-app run type-check",
     "next:lint": "pnpm -F @repo/next-app run lint",
     "next:lint-fix": "pnpm -F @repo/next-app run lint-fix",
