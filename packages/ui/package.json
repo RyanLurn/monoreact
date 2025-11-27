@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
+    "type-check": "tsc --noEmit",
     "lint": "eslint --cache",
     "lint-fix": "eslint --cache --fix"
   },
