@@ -24,6 +24,8 @@
     "hono:lint": "pnpm -F @repo/hono-api run lint",
     "hono:lint-fix": "pnpm -F @repo/hono-api run lint-fix",
     "ui:build": "pnpm -F @repo/ui run build",
+    "ui:lint": "pnpm -F @repo/ui run lint",
+    "ui:lint-fix": "pnpm -F @repo/ui run lint-fix",
     "eslint-config:type-check": "pnpm -F @repo/eslint-config run type-check",
     "eslint-config:lint": "pnpm -F @repo/eslint-config run lint",
     "eslint-config:lint-fix": "pnpm -F @repo/eslint-config run lint-fix"
