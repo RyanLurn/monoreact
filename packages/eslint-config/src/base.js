@@ -26,7 +26,11 @@ const baseConfig = defineConfig([
     languageOptions: {
       parserOptions: {
         projectService: {
-          allowDefaultProject: ["*.js", "*.mjs"],
+          allowDefaultProject: [
+            "eslint.config.js",
+            "eslint.config.mjs",
+            "postcss.config.mjs",
+          ],
         },
       },
     },
