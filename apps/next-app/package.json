@@ -1,0 +1,34 @@
+{
+  "name": "@repo/next-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "type-gen": "next typegen",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint --cache",
+    "lint-fix": "eslint --cache --fix"
+  },
+  "dependencies": {
+    "@repo/styles": "workspace:*",
+    "@repo/ui": "workspace:*",
+    "next": "^16.0.4",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@tailwindcss/postcss": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint": "catalog:",
+    "postcss": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:"
+  }
+}

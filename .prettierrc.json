@@ -1,5 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/prettierrc",
   "trailingComma": "es5",
-  "plugins": ["@prettier/plugin-oxc", "prettier-plugin-curly"]
+  "plugins": [
+    "@prettier/plugin-oxc",
+    "prettier-plugin-curly",
+    "prettier-plugin-tailwindcss"
+  ],
+  "tailwindStylesheet": "./packages/styles/globals.css",
+  "tailwindFunctions": ["clsx", "cn", "tw", "twMerge", "cva"]
 }
